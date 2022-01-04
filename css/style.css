@@ -2,13 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
-section {
+.display-flex {
     display: flex;
     margin-bottom: 150px;
 }
 h1 {
     font-size: 65px;
     margin-bottom: 30px;
+}
+h2 {
+    font-size: 50px;
 }
 .orange-color {
     color: orange;
@@ -44,4 +47,31 @@ h1 {
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-color: whitesmoke;
+}
+
+.experiance-content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 20px gray;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-left: 10px solid orangered;
+}
+
+.experience-background {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.footer-section {
+    background-color: whitesmoke;
+    height: 60px;
+}
+.footer-section p {
+    text-align: center;
+    padding-top: 20px;
 }
