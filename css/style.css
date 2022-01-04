@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+section {
+    display: flex;
+}
+h1 {
+    font-size: 65px;
+}
+.orange-color {
+    color: orange;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+.hireme-btn {
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.margin-forbtn {
+    margin-bottom: 20px;
+}
+.background-img {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
