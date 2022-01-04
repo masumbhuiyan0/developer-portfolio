@@ -4,9 +4,11 @@ body {
 }
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 h1 {
     font-size: 65px;
+    margin-bottom: 30px;
 }
 .orange-color {
     color: orange;
@@ -16,11 +18,11 @@ h1 {
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 
 .hireme-btn {
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(to right, rgb(248, 123, 101), rgb(235, 58, 27));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -32,4 +34,14 @@ h1 {
 .background-img {
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+}
+.para-one {
+    text-align: justify;
+    padding-right: 20%;
+    margin-bottom: 30px;
+}
+.dream-big {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
